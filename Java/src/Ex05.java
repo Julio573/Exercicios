@@ -1,5 +1,3 @@
-package EstruturaRepetitiva;
-
 import java.util.Scanner;
 import java.util.Locale;
 
