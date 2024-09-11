@@ -1,3 +1,5 @@
+package EstruturaRepetitiva;
+
 import java.util.Scanner;
 
 public class Ex01 {
