@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class ex06 {
+public class Ex06 {
     public static void main(String[] args) {
 
         double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
