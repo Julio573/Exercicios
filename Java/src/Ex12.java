@@ -4,20 +4,24 @@ import java.util.Scanner;
 public class Ex12 {
     public static void main(String[] args) {
 
-        double valor;
+        double valor1, valor2;
 
+        Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
 
-        valor = scan.nextDouble();
+        valor1 = scan.nextDouble();
+        valor2 = scan.nextDouble();
 
-        if (valor > 0.25 || valor < 25.50) {
-            System.out.println("Intervalo (0,25)");
-        } else if (valor < 25.50 || valor < 50.75 ) {
-            System.out.println("Intervalo (0,25)");
-        } else if (valor > 50.75 || valor > 75.100) {
-            System.out.println("Intervalo (75,100)");
+        if (valor1 > 0 && valor2 > 0) {
+            System.out.println("Q1");
+        } else if (valor1 < 0 && valor2 > 0) {
+            System.out.println("Q2");
+        } else if (valor1 < 0 && valor2 < 0) {
+            System.out.println("Q3");
+        } else if (valor1 > 0 && valor2 < 0) {
+            System.out.println("Q4");
         } else {
-            System.out.println("Fora do intervalo");
+            System.out.println("Origem");
         }
 
         scan.close();
