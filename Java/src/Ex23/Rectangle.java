@@ -1,4 +1,4 @@
-package Ex3;
+package Ex23;
 
 public class Rectangle {
     private double width;

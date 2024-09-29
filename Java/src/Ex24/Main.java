@@ -1,4 +1,4 @@
-package Ex4;
+package Ex24;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -26,9 +26,10 @@ public class Main {
 
         System.out.print("Which percentage to increase salary? ");
         double percent = scan.nextDouble();
-        double aumento = person.increaseSalary(percent);
+        person.increaseSalary(percent);
 
-        System.out.println("Updated data: " + person.getName() + person);
+        System.out.println("Updated data: " + person.getName());
+
 
         scan.close();
     }

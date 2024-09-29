@@ -15,8 +15,7 @@ public class Ex21 {
             if (x % 2 == 0 && y % 2 == 0) {
                 double resultado = (double) x / y;
                 System.out.println(resultado);
-            } else if (){
-                System.out.println("Divisão impossível");
+
             }
         }
 

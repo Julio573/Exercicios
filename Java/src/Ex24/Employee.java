@@ -1,4 +1,4 @@
-package Ex4;
+package Ex24;
 
 public class Employee {
     private String Name;

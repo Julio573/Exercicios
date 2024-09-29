@@ -1,4 +1,4 @@
-package Ex2;
+package Ex22;
 
 import java.util.Locale;
 import java.util.Scanner;

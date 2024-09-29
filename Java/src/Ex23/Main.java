@@ -1,4 +1,4 @@
-package Ex3;
+package Ex23;
 
 import java.util.Locale;
 import java.util.Scanner;

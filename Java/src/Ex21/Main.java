@@ -1,4 +1,4 @@
-package Ex1;
+package Ex21;
 
 
 import java.util.Locale;

@@ -1,4 +1,4 @@
-package Ex1;
+package Ex21;
 
 public class Triangulo {
     public double A, B, C;
